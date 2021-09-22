@@ -1,10 +1,12 @@
-import { Button, Divider, TextField } from '@material-ui/core';
-import React from 'react';
+import Button from '@mui/material/Button';
+import Divider from '@mui/material/Divider';
+import TextField from '@mui/material/TextField';
+import React, { useState } from 'react';
 import { useHistory } from 'react-router';
 import { useRealmApp } from './RealmApp';
 
 function HomePage() {
-  const [gameId, setGameId] = React.useState('');
+  const [gameId, setGameId] = useState('');
   const history = useHistory();
   const app = useRealmApp();
   const { createGame } = app.currentUser.functions;
@@ -20,7 +22,7 @@ function HomePage() {
   const handleCreateGame = async () => {
     const { gameId } = await createGame();
 
-    history.push(`/game/${gameId}`);
+    history.push(`/game/${gameId}/host`);
   };
 
   return (

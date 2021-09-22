@@ -7,7 +7,7 @@ import { useRealmApp, RealmAppProvider } from "./RealmApp";
 import GamePage from './GamePage';
 import HostPage from './HostPage';
 
-export const APP_ID = "house_of_memes-zajem";
+export const APP_ID = 'house_of_memes-zajem';
 
 const RequireLoggedInUser = ({ children }) => {
   const [isLoggingIn, setIsLoggingIn] = useState(false);
