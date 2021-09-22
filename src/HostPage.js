@@ -108,24 +108,26 @@ function HostPage() {
       </ToggleButton>
 
       <br/>
-      
+
       {Boolean(!game.allow_submissions) &&
         <div style={{ display: 'flex', flexDirection: 'column', marginTop: 30 }}>
           Please select an art piece
 
-          <img style={{ border: 10, borderColor: '#CCA604', borderStyle: 'ridge', height: 500, boxShadow: '2px 2px 6px #000' }} src={randomArtUrl} />
+          <img style={{ border: 10, borderColor: '#CCA604', borderStyle: 'ridge', height: 500, boxShadow: '2px 2px 6px #000', marginBottom: 50 }} src={randomArtUrl} />
 
           <Button
             onClick={handleGetRandomArt}
             disabled={retrievingRandomArtUrl}
+            variant="outlined"
           >
             Get random art piece
           </Button>
           <Button
             onClick={handleSelectArt}
             disabled={settingArtUrlForGame}
+            variant="contained"
           >
-            Select art piece
+            Make current art piece active
           </Button>
         </div>
       }
@@ -137,7 +139,7 @@ function HostPage() {
         </div>
       }
 
-      <div>
+      <div style={{marginTop: 50}}>
         <Paper sx={{ width: '100%', overflow: 'hidden' }}>
           <TableContainer sx={{ maxHeight: 300 }}>
             <Table stickyHeader sx={{ minWidth: 650 }} size="small" aria-label="a dense table">

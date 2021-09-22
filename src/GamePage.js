@@ -63,11 +63,33 @@ function GamePage() {
       <br />
       {Boolean(game.allow_submissions) && Boolean(game.image_url) &&
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', marginTop: 30 }}>
-          <img style={{ border: 10, borderColor: '#CCA604', borderStyle: 'ridge', height: 500 }} src={game.image_url} />
+          <img style={{ border: 10, borderColor: '#CCA604', borderStyle: 'ridge', height: 500, marginBottom: 50 }} src={game.image_url} />
 
-          <TextField onChange={handleCaptionChange} value={caption} disabled={submitted} />
 
-          <Button disabled={submitted} onClick={handleSubmitCaption}>Submit caption</Button>
+          <Card sx={{ width: 420 }}>
+            <CardContent>
+              <Typography variant="body" color="text.secondary">
+                <b>Caption this art piece:</b>
+              </Typography>
+              <TextField fullWidth 
+                onChange={handleCaptionChange} 
+                value={caption} 
+                disabled={submitted}
+                label="Enter a funny, tech-related caption..." 
+                variant="outlined" 
+                style={{marginTop: 20}}
+              />
+            </CardContent>
+          </Card>
+
+          <Button 
+            variant="contained" 
+            disabled={submitted} 
+            onClick={handleSubmitCaption}
+            style={{marginTop: 20, marginBottom: 20}}
+          >
+            Submit caption
+          </Button>
         </div>
       }
 
