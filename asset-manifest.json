@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/adriennetacke/house-of-memes/static/css/main.d725c3ff.chunk.css",
+    "main.js": "/adriennetacke/house-of-memes/static/js/main.ba7a7d6b.chunk.js",
+    "main.js.map": "/adriennetacke/house-of-memes/static/js/main.ba7a7d6b.chunk.js.map",
+    "runtime-main.js": "/adriennetacke/house-of-memes/static/js/runtime-main.b887c8a4.js",
+    "runtime-main.js.map": "/adriennetacke/house-of-memes/static/js/runtime-main.b887c8a4.js.map",
+    "static/js/2.fe7755af.chunk.js": "/adriennetacke/house-of-memes/static/js/2.fe7755af.chunk.js",
+    "static/js/2.fe7755af.chunk.js.map": "/adriennetacke/house-of-memes/static/js/2.fe7755af.chunk.js.map",
+    "index.html": "/adriennetacke/house-of-memes/index.html",
+    "static/css/main.d725c3ff.chunk.css.map": "/adriennetacke/house-of-memes/static/css/main.d725c3ff.chunk.css.map",
+    "static/js/2.fe7755af.chunk.js.LICENSE.txt": "/adriennetacke/house-of-memes/static/js/2.fe7755af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b887c8a4.js",
+    "static/js/2.fe7755af.chunk.js",
+    "static/css/main.d725c3ff.chunk.css",
+    "static/js/main.ba7a7d6b.chunk.js"
+  ]
+}
