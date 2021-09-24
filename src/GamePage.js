@@ -53,7 +53,12 @@ function GamePage() {
   };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', background: 'repeating-linear-gradient( to right, #fc9b90, #fc9b90 100px, #fffef6 100px, #fffef6 200px)'}}>
+    <div style={{ 
+      display: 'flex', 
+      flexDirection: 'column', 
+      alignItems: 'center', 
+      background: 'repeating-linear-gradient( to right, rgba(115, 169, 255, 0.4), rgba(115, 169, 255, 0.4) 100px, #fffef6 100px, #fffef6 200px)',
+      height: '100vh'}}>
        <Typography variant="h1" style={{fontFamily: 'Fleur De Leah', color: 'gold', textShadow: '2px 2px #000000'}}>
           House of Memes
        </Typography>
