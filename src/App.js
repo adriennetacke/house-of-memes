@@ -41,7 +41,7 @@ function App() {
   return (
     <RealmAppProvider appId={APP_ID}>
       <RequireLoggedInUser>
-        <Router>
+        <Router basename={process.env.REACT_APP_PUBLIC_URL}>
           <Switch>
             <Route exact path="/">
               <HomePage />
