@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/adriennetacke/house-of-memes/static/css/main.d725c3ff.chunk.css",
-    "main.js": "/adriennetacke/house-of-memes/static/js/main.ba7a7d6b.chunk.js",
-    "main.js.map": "/adriennetacke/house-of-memes/static/js/main.ba7a7d6b.chunk.js.map",
-    "runtime-main.js": "/adriennetacke/house-of-memes/static/js/runtime-main.b887c8a4.js",
-    "runtime-main.js.map": "/adriennetacke/house-of-memes/static/js/runtime-main.b887c8a4.js.map",
-    "static/js/2.fe7755af.chunk.js": "/adriennetacke/house-of-memes/static/js/2.fe7755af.chunk.js",
-    "static/js/2.fe7755af.chunk.js.map": "/adriennetacke/house-of-memes/static/js/2.fe7755af.chunk.js.map",
-    "index.html": "/adriennetacke/house-of-memes/index.html",
-    "static/css/main.d725c3ff.chunk.css.map": "/adriennetacke/house-of-memes/static/css/main.d725c3ff.chunk.css.map",
-    "static/js/2.fe7755af.chunk.js.LICENSE.txt": "/adriennetacke/house-of-memes/static/js/2.fe7755af.chunk.js.LICENSE.txt"
+    "main.css": "https://adriennetacke.github.io/house-of-memes/static/css/main.d725c3ff.chunk.css",
+    "main.js": "https://adriennetacke.github.io/house-of-memes/static/js/main.a49b26bc.chunk.js",
+    "main.js.map": "https://adriennetacke.github.io/house-of-memes/static/js/main.a49b26bc.chunk.js.map",
+    "runtime-main.js": "https://adriennetacke.github.io/house-of-memes/static/js/runtime-main.090330c0.js",
+    "runtime-main.js.map": "https://adriennetacke.github.io/house-of-memes/static/js/runtime-main.090330c0.js.map",
+    "static/js/2.49ffc676.chunk.js": "https://adriennetacke.github.io/house-of-memes/static/js/2.49ffc676.chunk.js",
+    "static/js/2.49ffc676.chunk.js.map": "https://adriennetacke.github.io/house-of-memes/static/js/2.49ffc676.chunk.js.map",
+    "index.html": "https://adriennetacke.github.io/house-of-memes/index.html",
+    "static/css/main.d725c3ff.chunk.css.map": "https://adriennetacke.github.io/house-of-memes/static/css/main.d725c3ff.chunk.css.map",
+    "static/js/2.49ffc676.chunk.js.LICENSE.txt": "https://adriennetacke.github.io/house-of-memes/static/js/2.49ffc676.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b887c8a4.js",
-    "static/js/2.fe7755af.chunk.js",
+    "static/js/runtime-main.090330c0.js",
+    "static/js/2.49ffc676.chunk.js",
     "static/css/main.d725c3ff.chunk.css",
-    "static/js/main.ba7a7d6b.chunk.js"
+    "static/js/main.a49b26bc.chunk.js"
   ]
 }
