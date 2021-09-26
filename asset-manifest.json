@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "https://adriennetacke.github.io/house-of-memes/static/css/main.d725c3ff.chunk.css",
-    "main.js": "https://adriennetacke.github.io/house-of-memes/static/js/main.937dc4cc.chunk.js",
-    "main.js.map": "https://adriennetacke.github.io/house-of-memes/static/js/main.937dc4cc.chunk.js.map",
-    "runtime-main.js": "https://adriennetacke.github.io/house-of-memes/static/js/runtime-main.090330c0.js",
-    "runtime-main.js.map": "https://adriennetacke.github.io/house-of-memes/static/js/runtime-main.090330c0.js.map",
-    "static/js/2.49ffc676.chunk.js": "https://adriennetacke.github.io/house-of-memes/static/js/2.49ffc676.chunk.js",
-    "static/js/2.49ffc676.chunk.js.map": "https://adriennetacke.github.io/house-of-memes/static/js/2.49ffc676.chunk.js.map",
-    "index.html": "https://adriennetacke.github.io/house-of-memes/index.html",
-    "static/css/main.d725c3ff.chunk.css.map": "https://adriennetacke.github.io/house-of-memes/static/css/main.d725c3ff.chunk.css.map",
-    "static/js/2.49ffc676.chunk.js.LICENSE.txt": "https://adriennetacke.github.io/house-of-memes/static/js/2.49ffc676.chunk.js.LICENSE.txt"
+    "main.css": "/house-of-memes/static/css/main.d725c3ff.chunk.css",
+    "main.js": "/house-of-memes/static/js/main.d322ac4e.chunk.js",
+    "main.js.map": "/house-of-memes/static/js/main.d322ac4e.chunk.js.map",
+    "runtime-main.js": "/house-of-memes/static/js/runtime-main.bfef0159.js",
+    "runtime-main.js.map": "/house-of-memes/static/js/runtime-main.bfef0159.js.map",
+    "static/js/2.49ffc676.chunk.js": "/house-of-memes/static/js/2.49ffc676.chunk.js",
+    "static/js/2.49ffc676.chunk.js.map": "/house-of-memes/static/js/2.49ffc676.chunk.js.map",
+    "index.html": "/house-of-memes/index.html",
+    "static/css/main.d725c3ff.chunk.css.map": "/house-of-memes/static/css/main.d725c3ff.chunk.css.map",
+    "static/js/2.49ffc676.chunk.js.LICENSE.txt": "/house-of-memes/static/js/2.49ffc676.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.090330c0.js",
+    "static/js/runtime-main.bfef0159.js",
     "static/js/2.49ffc676.chunk.js",
     "static/css/main.d725c3ff.chunk.css",
-    "static/js/main.937dc4cc.chunk.js"
+    "static/js/main.d322ac4e.chunk.js"
   ]
 }
