@@ -125,10 +125,10 @@ function GamePage() {
                   <i>Anonymous</i>
                 </Typography>
                 <Typography variant="body2">
-                San Cristóbal de La Laguna, Spain
+                 Praha, Czechia
                 </Typography>
                 <Typography variant="body2">
-                 Canarias JS 2022
+                 WebExpo 2022
                 </Typography>
               </CardContent>
             </Card>)}
